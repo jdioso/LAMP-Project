@@ -1,4 +1,4 @@
-const urlBase = 'http:/davidumanzor.com/LAMPAPI';
+const urlBase = '/LAMPAPI';
 const extension = 'php';
 
 let userId = 0;
@@ -7,12 +7,13 @@ let lastName = "";
 
 function doLogin()
 {
+  
 	userId = 0;
 	firstName = "";
 	lastName = "";
 	
-	let login = document.getElementById("loginName").value;
-	let password = document.getElementById("loginPassword").value;
+	let login = document.getElementById("login").value;
+	let password = document.getElementById("password").value;
 //	var hash = md5( password );
 	
 	document.getElementById("loginResult").innerHTML = "";
