@@ -55,7 +55,7 @@ body
     border-radius: 25px;
     width: 50%;
     margin-left: 25%;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Audiowide', sans-serif;
 }
 
 .buttons:hover{
@@ -66,11 +66,19 @@ body
 
 #loginName
 {
-	font-size: 30px;
+	font-size: 25px;
 }
 #loginPassword
 {
-	font-size: 30px;
+	font-size: 25px;
+}
+#signupName
+{
+	font-size: 25px;
+}
+#signupPassword
+{
+	font-size: 25px;
 }
 #searchText
 {
@@ -87,7 +95,7 @@ input[type="text"],input[type="password"]{
     width: 80%;
     margin-left: 10%;
     margin-bottom: 2%;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Audiowide', sans-serif;
 }
 
 #inner-title{
@@ -97,7 +105,7 @@ input[type="text"],input[type="password"]{
     text-align: center;
     margin-left: 5%;
     margin-bottom: 2%;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Audiowide', sans-serif;
     color: #95060a;
 }
 
@@ -108,7 +116,7 @@ input[type="text"],input[type="password"]{
     text-align: center;
     margin-left: 5%;
     margin-bottom: 2%;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Audiowide', sans-serif;
     color: #95060a;
 }
 
@@ -129,7 +137,7 @@ select{
     margin-left: 35%;
     margin-top: 2%;
     font-size: 0.75em;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Audiowide', sans-serif;
 }
 
 #colorSearchResult{
@@ -144,6 +152,6 @@ select{
     margin-left: 5%;
     margin-top: 2%;
     margin-bottom: 1%;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Audiowide', sans-serif;
     color: #95060a;
 }
